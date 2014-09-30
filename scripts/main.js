@@ -1,7 +1,7 @@
-var num1 = document.getElementById('num_one');
-var num2 = document.getElementById('num_two');
+var num1 = document.getElementById('num1');
+var num2 = document.getElementById('num2');
 var answer = document.getElementById('answer');
-var button = document.getElementById('calculateBtn');
+var button = document.getElementById('calculate');
 
 var calculate = function(x, y) {
     var sum = x + y;

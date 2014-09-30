@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
     <body>
         <div class="wrapper">
-            <div id="answer"></div>
+            <div id="answer">25</div>
             <div class="equation">
                 <input type="text" id="num1" />
-                <div id="operator"></div>
-                <input type="text" id="num1" />
+                <div id="operator">+</div>
+                <input type="text" id="num2" />
             </div>
             <ul class="buttons">
                 <li id="add">+</li>
@@ -16,15 +18,7 @@
                 <li id="divide">/</li>
                 <li id="remainder">%</li>
             </ul>
-            <div id="calculate">Calculate</div>
-        </div>
-
-        <h3>jsCalculator</h3>
-        <input type="text" id="num_one" />
-        <input type="text" id="num_two" />
-        <input type="submit" value="Calculate" id="calculateBtn" />
-        <div class="answer">
-          Answer: <span id="answer"></span>
+            <button id="calculate">Calculate</button>
         </div>
         <script src="scripts/main.js"></script>
     </body>
