@@ -2,18 +2,28 @@
 <html>
     <head></head>
     <body>
-        <img src="http://f.cl.ly/items/2Z1g1g1o0K3d360N3W0z/mathcat.png" alt="Math Cat" />
+        <div class="wrapper">
+            <div id="answer"></div>
+            <div class="equation">
+                <input type="text" id="num1" />
+                <div id="operator"></div>
+                <input type="text" id="num1" />
+            </div>
+            <ul class="buttons">
+                <li id="add">+</li>
+                <li id="subtract">-</li>
+                <li id="multiply">*</li>
+                <li id="divide">/</li>
+                <li id="remainder">%</li>
+            </ul>
+            <div id="calculate">Calculate</div>
+        </div>
 
-        <h3>Let's Add Some Values</h3>
-
+        <h3>jsCalculator</h3>
         <input type="text" id="num_one" />
-        <br /><br />
         <input type="text" id="num_two" />
-        <br /><br />
         <input type="submit" value="Calculate" id="calculateBtn" />
-
         <div class="answer">
-          <br />
           Answer: <span id="answer"></span>
         </div>
         <script src="scripts/main.js"></script>
