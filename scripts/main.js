@@ -12,6 +12,7 @@ var mulButton = document.getElementById('multiply');
 var divButton = document.getElementById('divide');
 var modButton = document.getElementById('modulo');
 
+
 //Operator functions
 
 addButton.onclick = function(){
